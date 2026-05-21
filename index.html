@@ -256,8 +256,8 @@
 </div>
 
 <!-- Hidden container for generating QR canvas and PDF preview -->
-<div class="qr-preview" id="qrHiddenContainer" style="width: 300px; padding: 20px; background: white; text-align: center; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); font-family: monospace;">
-    <div style="font-weight: bold; margin-bottom: 12px; font-size: 16px;">✅ QR CODE SANTRI</div>
+<div class="qr-preview" id="qrHiddenContainer" style="width: 50px; padding: 20px; background: white; text-align: center; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); font-family: monospace;">
+    <div style="font-weight: bold; margin-bottom: 12px; font-size: 16px;">✅ QR CODE ALUMNI</div>
     <div id="dynamicQR" style="display: flex; justify-content: center; margin: 12px 0;"></div>
     <div id="qrNikInfo" style="font-size: 12px; margin-top: 10px; word-break: break-all; background: #f1f5f9; padding: 4px; border-radius: 12px;"></div>
     <div style="border-top: 1px dashed #ccc; margin: 12px 0;"></div>
@@ -312,7 +312,7 @@
         try {
             new QRCode(container, {
                 text: nik,
-                width: 150,
+                width: 120,
                 height: 150,
                 colorDark: "#1e3a5f",
                 colorLight: "#ffffff",
